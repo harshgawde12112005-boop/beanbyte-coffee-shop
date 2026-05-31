@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeanByte Coffee Shop</title>
+
+<link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome (for cart icon) -->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+
+        <!-- Logo -->
+        <div class="logo">
+            <img src="logo.png">
+            <h2>
+     <span class="bean">Bean</span><span class="byte">Byte</span>
+     <p class="tagline">Brewed for you</p>
+</h2>
+
+
+        </div>
+
+        <!-- Navigation Links -->
+        <ul class="nav-links">
+
+            <li><a href="#home">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
+            </ul>
+            <ul class="nav-actions">
+            <li>
+                <a href="#search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+            </li>
+            
+
+            <!-- Cart Icon -->
+            <li>
+                <a href="#cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                     <span id="cart-count">0</span>
+                </a>
+            </li>
+            <li><a href="#"class="login-btn">Login</a></li>
+            <li><a href="#">Order Now</a></li>
+
+        </ul>
+
+    </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        
+
+        <h1><span class="coffee">Good Coffee,<br>Great</span>
+             <span class="moments">Moments</span>
+        </h1>
+
+        <p>
+            At BeanByte, we blend perfection with passion <br>
+            to give you moments worth siping.
+        </p>
+
+        <div class="hero-buttons">
+            <button>Order Now</button>
+            <button>Explore Menu</button>
+        </div>
+
+    </div>
+
+   
+
+</section>
+<section class="featured">
+  
+  <!-- New Header Section -->
+  <div class="section-header">
+    <!-- Centered Titles -->
+    <div class="header-titles">
+      <span class="trending-label">&mdash; TRENDING NOW &mdash;</span>
+      <h2>Our Must-Try Brews</h2>
+      <!-- Small decorative icon under the heading (replace with your actual icon/image) -->
+     
+    </div>
+
+    <!-- Right-Aligned View Menu Button -->
+    <a href="#" class="view-menu-link">
+  View Full Menu 
+  <span class="arrow-btn">
+    <i class="fa-solid fa-chevron-right"></i>
+  </span>
+</a>
+  </div>
+
+  <!-- Your Existing Card Container -->
+  <div class="card-container">
+
+    <div class="card">
+      <img src="cappuccino.jpeg" alt="Cappuccino">
+      <h3>Cappuccino</h3>
+      <p class="price">₹180</p>
+      <button>+</button>
+    </div>
+
+    <div class="card">
+      <img src="Mocha.png" alt="Mocha">
+      <h3>Mocha</h3>
+      <p class="price">₹250</p>
+      <button>+</button>
+    </div>
+
+    <div class="card">
+      <img src="Caramel Macchiato.png" alt="Caramel Macchiato">
+      <h3>Caramel Macchiato</h3>
+      <p class="price">₹240</p>
+      <button>+</button>
+    </div>
+
+    <div class="card">
+      <img src="Frappuccino.jpeg" alt="Frappuccino">
+      <h3>Frappuccino</h3>
+      <p class="price">₹260</p>
+      <button>+</button>
+    </div>
+
+    <div class="card">
+      <img src="Iced latte.png" alt="Filter Coffee">
+      <h3>Iced Latte</h3>
+      <p class="price">₹169</p>
+      <button>+</button>
+    </div>
+
+  </div>
+
+
+
+
+</section>
+
+
+  <section id="about" class="about-section">
+  <div class="about-container">
+    
+    <div class="about-main-content">
+      
+      <div class="about-image-col">
+        <img src="cafe.jpeg" alt="BeanByte Cafe Interior">
+      </div>
+      
+      <div class="about-text-col">
+        <span class="about-sub-tag">ABOUT US</span>
+        <h2>Brewed with Passion,<br>Served with Love</h2>
+        
+        <div class="about-divider">
+          <span class="line"></span>
+          <i class="fa-regular fa-heart"></i>
+          <span class="line"></span>
+        </div>
+        
+        <p><strong>Welcome to BeanByte</strong>, where every cup is crafted with care and every visit feels like home.</p>
+        <p>We source premium coffee beans and prepare each drink with attention to quality, flavor, and detail. Whether you're working, meeting friends, or enjoying a quiet moment, BeanByte offers a warm and inviting space designed for comfort.</p>
+        <p>From bold espressos to smooth lattes and refreshing cold brews, we're here to make every sip memorable.</p>
+      </div>
+      
+    </div>
+
+    <div class="about-features-grid">
+      
+      <div class="feature-card">
+        <div class="feature-icon-circle">
+          <i class="fa-solid fa-seedling"></i> </div>
+        <h3>Premium Beans</h3>
+        <p>Carefully sourced for the best flavor.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon-circle">
+          <i class="fa-solid fa-heart"></i> </div>
+        <h3>Cozy Atmosphere</h3>
+        <p>A warm space to relax, work, and connect.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon-circle">
+          <i class="fa-solid fa-mug-hot"></i> </div>
+        <h3>Freshly Brewed</h3>
+        <p>Made to order with passion and precision.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon-circle">
+          <i class="fa-solid fa-hands-holding"></i> </div>
+        <h3>Crafted with Care</h3>
+        <p>Every detail matters in every single cup.</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+<section id="contact" class="contact-section">
+  <div class="contact-container">
+    
+    <div class="contact-header">
+      <h2>Get in Touch</h2>
+      <p>We're always here to brew up answers to your questions.</p>
+    </div>
+
+    <div class="contact-content">
+      
+      <form action="#" method="post" class="contact-form">
+        <div class="input-field">
+          <input type="text" name="name" placeholder="Your Name" required>
+        </div>
+
+        <div class="input-field">
+          <input type="email" name="email" placeholder="Email Address" required>
+        </div>
+
+        <div class="input-field">
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+
+        <button type="submit" class="send-message-btn">
+          Send Message <i class="fa-solid fa-arrow-right-long"></i>
+        </button>
+      </form>
+
+      <div class="contact-info-list">
+        <h3>Prefer to talk in person?</h3>
+
+        <div class="info-item">
+          <div class="info-icon">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div class="info-text">
+            <h4>Our Cafe</h4>
+            <p>123 Coffee Street,<br>Indore,Madhya Pradesh</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <div class="info-text">
+            <h4>Call Us</h4>
+            <p>+91 98765 43210</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="info-text">
+            <h4>Email Us</h4>
+            <p>info@beanbyte.com</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- Logo & About -->
+        <div class="footer-box">
+              <div class="footer-logo">
+        <img src="cup.png" alt="BeanByte Logo">
+        <h2>BeanByte</h2>
+    </div>
+            <p>
+                Brewing happiness one cup at a time.
+                Fresh coffee, cozy vibes, and unforgettable moments.
+            </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-box">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+      
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Opening Hours -->
+        <div class="footer-box">
+            <h3>Opening Hours</h3>
+            <p>Mon - Fri: 8:00 AM - 10:00 PM</p>
+            <p>Sat - Sun: 9:00 AM - 11:00 PM</p>
+        </div>
+
+        <!-- Contact -->
+      <!-- Contact -->
+<div class="footer-box">
+    <h3>Contact</h3>
+
+    <p>
+        <i class="fa-solid fa-location-dot"></i>
+        Indore, Madhya Pradesh
+    </p>
+
+    <p>
+        <i class="fa-solid fa-phone"></i>
+        +91 98765 43210
+    </p>
+
+    <p>
+        <i class="fa-solid fa-envelope"></i>
+        info@beanbyte.com
+    </p>
+</div>
+    </div>
+
+    <!-- Social Media Icons -->
+    <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+<a href="#"><i class="fa-brands fa-facebook"></i></a>
+<a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-bottom">
+        <p>© 2026 BeanByte. All Rights Reserved.</p>
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
